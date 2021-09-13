@@ -14,7 +14,7 @@ jinja2-cli
 from setuptools import find_packages, setup
 
 install_requires = ["jinja2"]
-tests_requires = ["pytest", "flake8"]
+tests_requires = ["pytest", "flake8", "coverage", "pytest-cov"]
 
 setup(
     name="jinja2-cli",
